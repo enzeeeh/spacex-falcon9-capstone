@@ -1,0 +1,5 @@
+model,cv_accuracy,test_accuracy,best_params
+Logistic regression,0.9090909090909092,0.9333333333333333,{'clf__C': 1}
+SVM,0.8757575757575757,0.9333333333333333,"{'clf__C': 10, 'clf__gamma': 'scale'}"
+K-nearest neighbours,0.8742424242424243,0.8666666666666667,"{'clf__n_neighbors': 3, 'clf__weights': 'uniform'}"
+Decision tree,0.8212121212121213,0.9333333333333333,"{'clf__max_depth': 2, 'clf__min_samples_split': 2}"
